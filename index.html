@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Remainder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Anime Remainder</h1>
+    </div>
+    <div class="container">
+        <div class="Anime-container">
+            <h2> One Piece</h2>
+            <h5>Eiichiro Oda</h5>
+            <p>One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its chapters compiled in 110 tankōbon volumes as of November 2024. The series follows the adventures of Monkey D. Luffy and his crew, the Straw Hat Pirates, as he explores the Grand Line in search of the mythical treasure known as the "One Piece" to become the next King of the Pirates.</p>
+            <button onclick="Delete(event)">Delete</button>
+        </div>
+        
+
+    </div>
+
+    <div class="popup"></div>
+    <div class="popup-box">
+        <h2>Add Anime</h2>
+        <form>
+            <input type="text" placeholder="Anime Name" id="anime-Name">
+            <input type="text" placeholder="Anime Author" id="anime-Author">
+            <textarea placeholder="Description" id="anime-Description"></textarea>
+            <button id="add-anime">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+
+    <button class="add-button" id="add-popup button" >+</button>
+    <script src="anime.js"></script>
+    
+</body>
+</html>
